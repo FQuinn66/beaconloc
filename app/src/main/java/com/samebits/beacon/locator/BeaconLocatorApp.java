@@ -110,7 +110,7 @@ public class BeaconLocatorApp extends Application implements BootstrapNotifier, 
 
         mBeaconManager.setBackgroundBetweenScanPeriod(PreferencesUtil.getBackgroundScanInterval(this));
 
-        mBeaconManager.setBackgroundScanPeriod(10000L);          // default is 10000L
+        mBeaconManager.setBackgroundScanPeriod(5000L);          // default is 10000L
         mBeaconManager.setForegroundBetweenScanPeriod(0L);      // default is 0L
         mBeaconManager.setForegroundScanPeriod(1100L);          // Default is 1100L
 
